@@ -17,17 +17,23 @@ Each one of the group members is an independent process and its syncronization w
 
 To compile the program, you need to be inside the *semaphore_soccergame/src* folder and type the following line to compile the program:
 
-> make all
+```
+make all
+```
 
 Once the program is compiled, we can now run the program by typing the following line in the *semaphore_soccergame/run* folder:
 
-> ./probSemSharedMemSoccerGame
+```
+./probSemSharedMemSoccerGame
+```
 
 This will simulate the soccer game with all the different entities, displaying its internal values (states).
 
 The *run.sh* script executes the program the number of times we want, showing all the different simulations and stopping if there is a deadlock:
 
-> ./run.sh (number of times we want to run the ./probSemSharedMemSoccerGame)
+```
+./run.sh (number of times we want to run the ./probSemSharedMemSoccerGame)
+```
 
 ## Authors
 
